@@ -28,7 +28,7 @@ body {
 
 h1 {
   margin: 0.67em 0;
-  font-size: 2em;
+  font-size: 90px;
 }
 
 /* Titles */
@@ -131,7 +131,6 @@ a:after {
 }
 
 #information h1 {
-	font-size: 90px;
 	font-weight: 700;
 	letter-spacing: 3px;
 	color: white;
@@ -174,6 +173,49 @@ a:after {
 }
 
 #speakers a {
+    color: #663399;
+}
+
+/* Code of Conduct */
+
+#coc {
+    text-align: center;
+    margin: -20px auto 10px;
+    padding: 50px 30px 20px;
+    max-width: 42em;
+}
+
+#coc h3 {
+    padding-top: 30px;
+}
+
+#coc p {
+    font-size: 140%;
+    text-align: justify;
+}
+
+#coc h1 {
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+#coc a {
+    color: #663399;
+}
+
+/* Attribution */
+
+#attribution {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 10px 30px;
+}
+
+#attribution p {
+    text-align: center;
+}
+
+#attribution a {
     color: #663399;
 }
 
