@@ -176,30 +176,30 @@ a:after {
     color: #663399;
 }
 
-/* Code of Conduct */
+/* Inclusivity */
 
-#coc {
+#inclusivity {
     text-align: center;
     margin: -20px auto 10px;
     padding: 50px 30px 20px;
     max-width: 42em;
 }
 
-#coc h3 {
+#inclusivity h3 {
     padding-top: 30px;
 }
 
-#coc p {
+#inclusivity p {
     font-size: 140%;
     text-align: justify;
 }
 
-#coc h1 {
+#inclusivity h1 {
     font-weight: 700;
     letter-spacing: 3px;
 }
 
-#coc a {
+#inclusivity a {
     color: #663399;
 }
 
