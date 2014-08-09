@@ -53,6 +53,10 @@ p {
     text-align: center;
 }
 
+.credits {
+    text-align: right;
+}
+
 .mt {
     margin-top: 40px;
 }
@@ -203,6 +207,10 @@ a:after {
     color: #663399;
 }
 
+#inclusivity h1 a {
+    color: #555;
+}
+
 /* Attribution */
 
 #attribution {
@@ -221,15 +229,22 @@ a:after {
 
 /* Footer */
 #f {
-	padding-top: 20px;
-	padding-right: 20px;
+    padding: 0px;
 	background-color: #663399;
 }
 
 #f p {
 	color: white;
-	text-align: right;
 	font-weight: 400;
+    margin: 10px;
+}
+
+#f li {
+    font-weight: 400;
+}
+
+#f a:hover {
+    background-color: transparent;
 }
 
 #information i {
