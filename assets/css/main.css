@@ -7,39 +7,39 @@
  * URL: http://blacktie.co
  */
  
-/* FONTS */
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
+ /* FONTS */
+ @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+ @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
 
-/* OVERALL ASPECT */
+ /* OVERALL ASPECT */
 
-body {
+ body {
   background-color: #f2f2f2;
-    font-family: "Lato";
-    font-weight: 300;
-    font-size: 16px;
-    color: #555;
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 16px;
+  color: #555;
 
-    -webkit-font-smoothing: antialiased;
-    -webkit-overflow-scrolling: touch;
-    
-    margin-top: 70px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+
+  margin-top: 70px;
 }
 
 h1 {
   margin: 0.67em 0;
-  font-size: 90px;
+  font-size: 250%;
 }
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
- 	line-height: 1.1;
- 	margin-top: 20px;
-	margin-bottom: 10px;
+  line-height: 1.1;
+  margin-top: 20px;
+  margin-bottom: 10px;
 
-    font-family: "Raleway";
-    font-weight: 400;
-    color: #333;
+  font-family: "Raleway";
+  font-weight: 400;
+  color: #333;
 }
 
 
@@ -90,7 +90,7 @@ a:after {
 }
 
 /* Bootstrap Modifications */
- hr {
+hr {
     display: block;
     height: 1px;
     border: 0;
@@ -126,18 +126,27 @@ a:after {
 
 /* WRAP SECTIONS */
 
+/* Separator */
+.separator {
+    /*padding: 10px 0px;*/
+    height: 80px;
+    display: block;
+    background-color: #663399;
+}
+
 /* Information */
 #information {
 	background-color: #663399;
 	padding-top: 50px;
     margin-top: -20px;
-	margin-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 #information h1 {
-	font-weight: 700;
-	letter-spacing: 3px;
-	color: white;
+    font-size: 90px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: white;
 }
 
 #information h2 {
@@ -156,10 +165,22 @@ a:after {
 	font-size: 20px;
 }
 
+/* Tickets */
+#tickets  {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+#tickets p {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 42em;
+}
+
 /* Speakers */
 #speakers {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 #speakers img {
@@ -169,7 +190,6 @@ a:after {
 
 #speakers h1 {
     margin-bottom: 60px;
-    font-size: 250%;
 }
 
 #speakers h4 {
@@ -199,6 +219,7 @@ a:after {
 }
 
 #inclusivity h1 {
+    font-size: 90px;
     font-weight: 700;
     letter-spacing: 3px;
 }
@@ -230,7 +251,7 @@ a:after {
 /* Footer */
 #f {
     padding: 0px;
-	background-color: #663399;
+    background-color: #663399;
 }
 
 #f p {
