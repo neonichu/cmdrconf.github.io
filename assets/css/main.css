@@ -28,7 +28,7 @@ body {
 
 h1 {
   margin: 0.67em 0;
-  font-size: 2em;
+  font-size: 90px;
 }
 
 /* Titles */
@@ -51,6 +51,10 @@ p {
 
 .centered {
     text-align: center;
+}
+
+.credits {
+    text-align: right;
 }
 
 .mt {
@@ -131,7 +135,6 @@ a:after {
 }
 
 #information h1 {
-	font-size: 90px;
 	font-weight: 700;
 	letter-spacing: 3px;
 	color: white;
@@ -177,17 +180,71 @@ a:after {
     color: #663399;
 }
 
+/* Inclusivity */
+
+#inclusivity {
+    text-align: center;
+    margin: -20px auto 10px;
+    padding: 50px 30px 20px;
+    max-width: 42em;
+}
+
+#inclusivity h3 {
+    padding-top: 30px;
+}
+
+#inclusivity p {
+    font-size: 140%;
+    text-align: justify;
+}
+
+#inclusivity h1 {
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+#inclusivity a {
+    color: #663399;
+}
+
+#inclusivity h1 a {
+    color: #555;
+}
+
+/* Attribution */
+
+#attribution {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 10px 30px;
+}
+
+#attribution p {
+    text-align: center;
+}
+
+#attribution a {
+    color: #663399;
+}
+
 /* Footer */
 #f {
-	padding-top: 20px;
-	padding-right: 20px;
+    padding: 0px;
 	background-color: #663399;
 }
 
 #f p {
 	color: white;
-	text-align: right;
 	font-weight: 400;
+    margin: 10px;
+}
+
+#f li {
+    font-weight: 400;
+}
+
+#f a:hover {
+    background-color: transparent;
 }
 
 #information i {
