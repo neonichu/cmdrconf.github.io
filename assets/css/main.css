@@ -172,7 +172,7 @@ hr {
 
 /* Speakers */
 #speakers {
-    padding-top: 30px;
+    padding-top: 50px;
     padding-bottom: 30px;
 }
 
@@ -241,20 +241,17 @@ hr {
     color: #663399;
 }
 
-#about,
-#tickets {
-    padding-top: 30px;
+#about {
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 
 /* Contact */
-#tickets,
 #contact {
     background-color: #663399;
     color: white;
 }
 
-#tickets h1,
 #contact h1 {
     color: white;
 }
@@ -265,6 +262,25 @@ hr {
 
 #contact i {
     font-size: 50px;
+}
+
+/* Grey */
+#tickets,
+#cfp {
+  background-color: #4e4e4e;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: 50px;
+}
+
+#tickets h1,
+#cfp h1 {
+  color: white;
+}
+
+#tickets p,
+#cfp p {
+  color: white;
 }
 
 /* Footer */
