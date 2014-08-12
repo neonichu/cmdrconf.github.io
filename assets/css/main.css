@@ -246,6 +246,10 @@ hr {
     padding-bottom: 50px;
 }
 
+#about p {
+    padding-bottom: 0px;
+}
+
 /* Contact */
 #contact {
     background-color: #663399;
@@ -270,7 +274,6 @@ hr {
   background-color: #4e4e4e;
   padding-top: 50px;
   padding-bottom: 50px;
-  margin-top: 50px;
 }
 
 #tickets h1,
