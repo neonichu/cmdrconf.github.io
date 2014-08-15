@@ -1,0 +1,237 @@
+#tito-register-form {
+  background-color: #4e4e4e;
+  /*background-color: #fafafa; /* fallback */
+  /*background-color: rgba(0,0,0,.02);*/
+  /*border: 1px solid #c7c7c7;*/
+  /*border-radius: 5px;*/
+  color: white;
+  font-family: "Lato";
+  font-size: 14px;
+  margin: 0 auto;
+  min-height: 100px;
+  /*padding: 1em;*/
+  position: relative;
+  min-width: 300px;
+  max-width: 350px;
+  width: 50%;
+}
+
+#tito-register-form .tito-notch {
+  display: none;
+}
+
+#tito-title {
+  border-bottom: 1px solid #c7c7c7;
+  /*color: #494949;*/
+  color: white;
+  font-family: "Raleway";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1;
+  margin: .5em 0 0;
+  padding-bottom: .5em;
+  text-align: center;
+}
+
+#tito-tickets-form {
+  margin-bottom: 1em;
+}
+
+/* start #tito-tickets-form clearfix */
+
+  #tito-tickets-form:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+  }
+   
+  #tito-tickets-form {
+    display: block;
+  }
+   
+  html[xmlns] #tito-tickets-form {
+    display: block;
+  }
+   
+  * html #tito-tickets-form {
+    height: 1%;
+  }
+
+/* end #tito-tickets-form clearfix */
+
+#tito-title:after {
+  /*content: "Tickets";*/
+}
+
+.tito-ticket-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tito-ticket {
+  border-bottom: 1px solid #c7c7c7;
+  font-size: 1em;
+  padding: 0.7em 0;
+  text-align: left;
+  min-height: 50px;
+}
+
+.tito-supercombo-sub-list {
+  font-size: 0.9em;
+  margin: 0 1em 0 1.7em;
+  padding: 0 0 0 0.8em;
+  border-left: 1px solid rgba(0,0,0,0.1);
+}
+
+.tito-supercombo-sub-list li {
+  margin-top: 0.5em;
+  list-style-type: none;
+}
+
+.tito-supercombo-event-link {
+  text-decoration: none;
+  color: rgba(0,0,0,0.7);
+  font-weight: 700;
+}
+
+.tito-supercombo-ticket-title {
+  margin: 0;
+}
+
+#tito-releases .tito-ticket:nth-child(odd) {
+  /*background-color: #f2f2f2; /* fallback */*/
+  /*background-color: rgba(0,0,0,.03);*/
+}
+
+.tito-ticket-status {
+/*  background-color: #e0e0e0;
+  background-color: rgba(0,0,0,0.1);*/
+  border-radius: 5px;
+  font-size: .85em;
+  padding: 2px 6px;
+}
+
+.tito-ticket-status.tito-ticket-status-sold-out {
+  
+}
+
+.tito-ticket.tito-locked .tito-ticket-price,
+.tito-ticket.tito-locked .tito-ticket-quantity {
+  display: none;
+}
+
+.tito-ticket.tito-locked .tito-ticket-price-quantity {
+  background-color: transparent;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='11px' height='12px' viewBox='0 0 11 12' enable-background='new 0 0 11 12' xml:space='preserve'><path fill='#858585' d='M9,3.844V1.969V0.984H7.969V0H3.031v0.984H2v0.984v1.875H0v8.125h11V3.844H9z M4.062,1.969h2.875v1.875 H4.062V1.969z'/></svg>");
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 11px 12px;
+  padding-left: 20px;
+}
+
+.tito-ticket.tito-locked .tito-ticket-price-quantity:after {
+  content: "This ticket is locked *";
+}
+
+.tito-ticket-name {
+  margin: 0 1em;
+  font-family: "Lato";
+  font-weight: 400;
+  text-align: left;
+}
+
+.tito-ticket-price-quantity, .tito-ticket-status {
+  float: right;
+  margin-right: 1em;
+}
+
+.tito-ticket-price, .tito-ticket-quantity {
+  float: left;
+}
+
+.tito-ticket-price:after {
+  /*color: #797979;*/
+  content: "×";
+  font-weight: bold;
+  padding: 0 .5em;
+}
+
+.tito-ticket-quantity > input, #tito-discount-code-field input {
+  background-color: #fff;
+  border: 1px solid #c7c7c7;
+  border-radius: 5px;
+  box-shadow: inset 0px 1px 2px rgba(0,0,0,0.1);
+    -moz-box-shadow: inset 0px 1px 2px rgba(0,0,0,0.1);
+    -webkit-box-shadow: inset 0px 1px 2px rgba(0,0,0,0.1);
+  box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  margin: 0;
+}
+
+.tito-ticket-quantity > input {
+  padding: 3px;
+  position: relative;
+  text-align: center;
+  top: -2px;
+  width: 36px;
+}
+
+#tito-discount-code-field {
+  display: block;
+  float: left;
+  margin-top: 1.5em;
+}
+
+#tito-discount-code-field input {
+  font-size: .85em;
+  padding: .65em 1em;
+}
+
+input.tito-submit {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background-color: white;
+  border: 1px solid #c7c7c7;
+  border-radius: 5px;
+  color: #494949;
+  cursor: pointer;
+  /*float: right;*/
+  font-size: 1em;
+  margin: 1.5em auto 0;
+  padding: .5em 2em;
+}
+
+input.tito-submit:hover {
+  background-color: #dedede;
+}
+
+.tito-msg {
+  font-size: .85em;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+#tito-footer {
+  /*bottom: -5px;*/
+  /*margin: 1em 0 0 0;*/
+  /*position: absolute;*/
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
+#tito-footer a {
+  color: #c7c7c7;
+  font-size: .85em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#tito-footer a:hover, #tito-footer a:focus, #tito-footer a:active {
+  color: #797979;
+}
