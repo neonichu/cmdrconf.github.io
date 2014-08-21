@@ -132,14 +132,6 @@ hr {
 
 /* WRAP SECTIONS */
 
-/* Separator */
-.separator {
-    /*padding: 10px 0px;*/
-    height: 80px;
-    display: block;
-    background-color: #663399;
-}
-
 /* Information */
 #information {
 	background-color: #663399;
@@ -169,29 +161,6 @@ hr {
 	color: white;
 	font-weight: 400;
 	font-size: 20px;
-}
-
-/* Speakers */
-#speakers,
-#organisers {
-    padding-top: 50px;
-    padding-bottom: 30px;
-}
-
-#speakers img,
-#organisers img {
-    border-radius: 20%;
-    width: 160px;
-}
-
-#speakers h1,
-#organisers h1 {
-    margin-bottom: 60px;
-}
-
-#speakers h4,
-#organisers h4 {
-    margin-bottom: 30px;
 }
 
 /* Inclusivity */
@@ -237,15 +206,6 @@ hr {
     color: #663399;
 }
 
-#about {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-#about p {
-    padding-bottom: 0px;
-}
-
 /* Contact */
 #contact {
     background-color: #663399;
@@ -264,21 +224,46 @@ hr {
     font-size: 50px;
 }
 
-/* Grey */
-#tickets,
-#cfp {
-  background-color: #4e4e4e;
-  padding-top: 50px;
-  padding-bottom: 50px;
+
+/* Faces */
+#speakers img,
+#organisers img {
+    border-radius: 20%;
+    width: 160px;
 }
 
-#tickets h1,
-#cfp h1 {
+#speakers h1,
+#organisers h1 {
+    margin-bottom: 60px;
+}
+
+#speakers h4,
+#organisers h4 {
+    margin-bottom: 30px;
+}
+
+#about,
+#tickets,
+#speakers,
+#cfp,
+#sponsors,
+#organisers {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+/* Dark Grey */
+#tickets,
+#cfp,
+#organisers {
+  background-color: #4e4e4e;
   color: white;
 }
 
-#tickets p,
-#cfp p {
+#tickets h1,
+#cfp h1,
+#organisers h1,
+#organisers h4 {
   color: white;
 }
 
