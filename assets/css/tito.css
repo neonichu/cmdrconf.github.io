@@ -1,5 +1,5 @@
 #tito-register-form {
-  background-color: #4e4e4e;
+  background-color: #663399;
   /*background-color: #fafafa; /* fallback */
   /*background-color: rgba(0,0,0,.02);*/
   /*border: 1px solid #c7c7c7;*/
@@ -63,7 +63,7 @@
 /* end #tito-tickets-form clearfix */
 
 #tito-title:after {
-  /*content: "Tickets";*/
+  content: "Tickets";
 }
 
 .tito-ticket-list {
@@ -74,7 +74,7 @@
 
 .tito-ticket {
   border-bottom: 1px solid #c7c7c7;
-  font-size: 1em;
+  font-size: 1.2em;
   padding: 0.7em 0;
   text-align: left;
   min-height: 50px;
@@ -200,10 +200,11 @@ input.tito-submit {
   border-radius: 5px;
   color: #494949;
   cursor: pointer;
-  /*float: right;*/
   font-size: 1em;
   margin: 1.5em auto 0;
   padding: .5em 2em;
+  /*float: right;*/
+  display: block;
 }
 
 input.tito-submit:hover {
@@ -234,4 +235,8 @@ input.tito-submit:hover {
 
 #tito-footer a:hover, #tito-footer a:focus, #tito-footer a:active {
   color: #797979;
+}
+
+hr {
+  margin: 0;
 }

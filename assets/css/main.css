@@ -54,6 +54,12 @@ p {
     padding-right: 20px;
 }
 
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .centered {
     text-align: center;
 }
@@ -69,7 +75,7 @@ p {
 
 /* Links */
 a {
-    color: white;
+    color: #555;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -81,7 +87,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #7b7b7b;
+    color: #111;
     text-decoration: none;
     outline: 0;
 }
@@ -159,9 +165,19 @@ hr {
 
 #information p {
 	color: white;
-	font-weight: 400;
-	font-size: 20px;
 }
+
+#information .details {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+#information .vat-msg {
+  font-size: 0.9em;
+  text-align: center;
+  margin: 2px;
+}
+
 
 /* Inclusivity */
 
@@ -242,7 +258,9 @@ hr {
     margin-bottom: 30px;
 }
 
-#about,
+#venue,
+#hotels,
+#transport,
 #tickets,
 #speakers,
 #cfp,
@@ -253,18 +271,62 @@ hr {
 }
 
 /* Dark Grey */
+#transport,
 #tickets,
-#cfp,
+#sponsors,
 #organisers {
   background-color: #4e4e4e;
   color: white;
 }
 
+#transport h1,
+#sponsors h1,
 #tickets h1,
-#cfp h1,
 #organisers h1,
 #organisers h4 {
   color: white;
+}
+
+#contact a,
+#f a,
+#information a,
+#transport a {
+    color: white;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+#contact a:hover,
+#contact a:focus,
+#f a:hover,
+#f a:focus,
+#information a:hover,
+#information a:focus,
+#transport a:hover,
+#transport a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+#contact a:before,
+#contact a:after,
+#f a:before,
+#f a:after,
+#information a:before,
+#information a:after,
+#transport a:before,
+#transport a:after  {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
 /* Footer */
@@ -278,6 +340,18 @@ hr {
 	font-weight: 400;
 }
 
+
+@media screen and (max-width: 768px) {
+  .iphone-image {
+    display: none;
+  }
+
+  #information h2,
+  #information p {
+    text-align: center;
+  }
+}
+
 @media screen and (min-width: 600px) {
   p {
     font-size: 1.2em;
@@ -286,4 +360,8 @@ hr {
   #inclusivity p {
     text-align: justify;
   }
+}
+
+.blurb {
+  margin-top: 20px;
 }
