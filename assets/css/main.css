@@ -263,7 +263,6 @@ hr {
 #transport,
 #tickets,
 #speakers,
-#cfp,
 #sponsors,
 #organisers {
     padding-top: 50px;
@@ -352,6 +351,12 @@ hr {
   }
 }
 
+@media screen and (min-width: 768px) {
+  #venue h1 {
+    padding-bottom: 30px;
+  }
+}
+
 @media screen and (min-width: 600px) {
   p {
     font-size: 1.2em;
@@ -364,4 +369,8 @@ hr {
 
 .blurb {
   margin-top: 20px;
+}
+ 
+.map {
+  margin-bottom: 30px;
 }
