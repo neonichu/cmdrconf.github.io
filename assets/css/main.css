@@ -245,7 +245,8 @@ hr {
 #speakers img,
 #organisers img {
     border-radius: 20%;
-    width: 160px;
+    width: 100%;
+    max-width: 160px;
 }
 
 #speakers h1,
