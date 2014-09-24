@@ -36,7 +36,8 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
   margin-top: 20px;
   margin-bottom: 10px;
-
+  margin-left: 20px;
+  margin-right: 20px;
   font-family: "Raleway";
   font-weight: 400;
   color: #333;
@@ -259,6 +260,7 @@ hr {
     margin-bottom: 30px;
 }
 
+#workshop,
 #venue,
 #hotels,
 #transport,
